@@ -8,18 +8,6 @@ This is an academic project of Spring 2018, DS-GA 1003 Machine Learning and Comp
 2. nltk 3.2.5
 3. Scikit-learn 0.19.1
 
-## Proejct Structure
-
-The root directory is ```/data/WorkData/media_and_judging/```
-
-Under the root directory, we have three folders:
-
-    .
-    ├── data                                 # All raw, intermdeidate, and final data we used for feature engineering and training.
-    ├── Media-And-Judging                    # This Github repository: main scripts, and jupyter notebooks.
-    └── model_results                        # The results we used for project report.
-
-
 ## Data set 
 
 The final pickle dataset for training models is located at: 
@@ -31,9 +19,7 @@ The final pickle dataset for training models is located at:
 
 ## Usage
 
-1. ```$ cd /data/WorkData/media_and_judging/```
-
-2. Run training model: (Using final dataset)
+1. Run training model: (Using final dataset)
 	
 	```$ sh runtrain.sh```
 	
