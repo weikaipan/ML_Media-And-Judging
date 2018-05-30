@@ -10,14 +10,6 @@ In ```feature_engineering```  folder, we presented a way to reduce the dimension
 2. fasttext
 3. Scikit-learn 0.19.1
 
-## Data set 
-
-The final pickle dataset for training models is located at: 
-
-
-    /data/WorkData/media_and_judging/data/train/final_grouped500_news_court_trend_0110.p   # Random Forest
-
-    /data/WorkData/media_and_judging/data/train/cable_from_to_president_df_2001-2010_group100_90d.p  # Decision Tree
 
 ## Usage
 
@@ -32,11 +24,9 @@ The final pickle dataset for training models is located at:
 
 ## Result
 
-We used random forest to traing on data with feature sets: asylum court case and news group in time series manner. The results can be found in the file on Azure server:
+We used random forest to traing on data with feature sets: asylum court case and news group in time series manner.
 
-```/data/WorkData/media_and_judging/model_results/RandomForest/feature_info_final_new_trend_news_group_40_score.csv```
-
-with 0.89 roc auc score after rounding.
+We reached 0.89 roc auc score after rounding.
 
 
 ## Table of Content
