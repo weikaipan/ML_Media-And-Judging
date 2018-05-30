@@ -1,0 +1,17 @@
+# jupyter notebook
+*.ipynb_checkpoints
+*.ipynb
+
+# caches
+__pycache__/
+
+model_results
+Data-Preprocessing
+# data
+*.p
+*.json
+*.csv
+*.jpg
+*.png
+*.vec
+*.swp
