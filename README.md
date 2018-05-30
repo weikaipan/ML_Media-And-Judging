@@ -1,11 +1,13 @@
 # Media-And-Judging
 
 ## Description
-This is an academic project of Spring 2018, DS-GA 1003 Machine Learning and Computational Statistics at New York University.
+This is a binary classification task using machine learning models to predict judge's adjudication on asylum court. We further generated and quantified textual features extracted from New York Times and Wikileaks corpus using NLP tools including fasttext for language model, n-grams, and tf-idf.
+
+In ```feature_engineering```  folder, we presented a way to reduce the dimension and sparsity of textual features using language model and k-means clustering. In ```train``` folder, we are developing a machine learning task abstraction which aims to be reused for following tasks. The script for task abstraction is in ```./train/model.py```, and the driver script is ```./train/train.py```.
 
 ## Requirments
 1. Python 3.6
-2. nltk 3.2.5
+2. fasttext
 3. Scikit-learn 0.19.1
 
 ## Data set 
